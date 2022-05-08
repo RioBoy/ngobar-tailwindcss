@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media screen and (min-width: 0) and (max-width: 320px) {
+  .icon-blob svg {
+    width: 250px;
+    height: 250px;
+    transform: translateY(-5%);
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 376px) {
+  .icon-blob svg {
+    width: 350px;
+    height: 350px;
+    transform: translateY(5%);
+  }
+}
